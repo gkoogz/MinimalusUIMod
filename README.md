@@ -14,7 +14,7 @@ This repository publishes the working texture sources for Minimalus so players a
 ## Using Minimalus on PC
 
 1. Download `Minimalus UI v2.1.tpf` from the GitHub release.
-2. Open uMod Reforged or a TexMod-compatible loader.
+2. Open [uMod Reforged](https://github.com/gkoogz/uMod-Reforged) or a TexMod-compatible loader.
 3. Launch Guild Wars through the loader.
 4. Add the `.tpf` package and enable it.
 
@@ -22,7 +22,7 @@ This repository publishes the working texture sources for Minimalus so players a
 
 Edit textures in `assets/Altered/`. Keep filenames intact: uMod/TexMod-style packages infer the target texture hash from names such as `GW.EXE_0xHASH.dds` or equivalent dump names.
 
-To rebuild a package, use uMod Reforged and set the package source to `assets/Altered/`. See `docs/WRAPPING.md` for the practical workflow.
+To rebuild a package, use [uMod Reforged](https://github.com/gkoogz/uMod-Reforged) and set the package source to `assets/Altered/`. See `docs/WRAPPING.md` for the practical workflow.
 
 ## Notes
 
