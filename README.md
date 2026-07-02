@@ -29,3 +29,5 @@ To rebuild a package, use uMod Reforged and set the package source to `assets/Al
 These files are distributed for Guild Wars UI modding and preservation of Minimalus. The DDS files are derived from Guild Wars texture dumps and edited by the Minimalus project. This repository does not grant rights to the underlying Guild Wars game assets.
 
 Minimalus is non-malicious and purely cosmetic.
+
+See `LICENSE.md` for the community modding permission terms.
