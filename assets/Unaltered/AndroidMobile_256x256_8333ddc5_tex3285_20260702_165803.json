@@ -1,0 +1,23 @@
+{
+  "kind": "bridge.dump",
+  "textureId": 96,
+  "target": 3553,
+  "level": 0,
+  "time": 25540,
+  "xoffset": 0,
+  "yoffset": 0,
+  "width": 256,
+  "height": 256,
+  "format": 6408,
+  "type": 5121,
+  "bytes": 268435456,
+  "srcOffset": 116157600,
+  "uploadBytes": 262144,
+  "hash": "8333ddc5",
+  "textureName": 3285,
+  "dumpIndex": 1,
+  "browserIndex": 71,
+  "browserTotal": 362,
+  "savedDds": "C:\\Users\\Administrator\\Documents\\Minimalus UI 3.0 Pipeline\\working\\Minimalus UI 3.0\\Unaltered\\AndroidMobile_256x256_8333ddc5_tex3285_20260702_165803.dds",
+  "savedAt": "2026-07-02 16:58:03"
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "bridge.dump",
+  "textureId": 298,
+  "target": 3553,
+  "level": 0,
+  "time": 34996,
+  "xoffset": 0,
+  "yoffset": 0,
+  "width": 32,
+  "height": 32,
+  "format": 6408,
+  "type": 5121,
+  "bytes": 322174976,
+  "srcOffset": 220795912,
+  "uploadBytes": 4096,
+  "hash": "96ed6dcb",
+  "textureName": 4269,
+  "dumpIndex": 3,
+  "browserIndex": 250,
+  "browserTotal": 362,
+  "savedDds": "C:\\Users\\Administrator\\Documents\\Minimalus UI 3.0 Pipeline\\working\\Minimalus UI 3.0\\Unaltered\\AndroidMobile_32x32_96ed6dcb_tex4269_20260702_171738.dds",
+  "savedAt": "2026-07-02 17:17:38"
+}
