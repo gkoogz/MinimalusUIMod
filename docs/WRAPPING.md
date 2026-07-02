@@ -50,6 +50,18 @@ Android/Reforged mobile captures use the `AndroidMobile_...` naming pattern and 
 5. Rebuild the TPF.
 6. Test in game.
 
+## Mobile Overlay Workflow
+
+For Android/Reforged work, treat `assets/AlteredMobile/` as the top priority override layer. Many mobile textures are sister assets of PC textures: visually identical or nearly identical, but with different hashes or dimensions. A mobile build should therefore include the PC altered DDS files first, then layer the mobile altered DDS files on top.
+
+To generate a merged mobile source folder:
+
+```powershell
+.\tools\Build-MobileOverlay.ps1
+```
+
+The script writes the merged output to `.build/MobileOverlay/` and creates `manifest-mobile-overlay.txt` with the counts and any same-filename overrides. Use that merged folder as the source when building or testing a mobile/remapped package.
+
 ## Compatibility
 
 The v2.1 TPF is compatible with the classic TexMod/uMod workflow. uMod Reforged is preferred because it has a modernized Guild Wars workflow, supports packaging from a directory of DDS files, and keeps the mod-maker loop much smoother.
