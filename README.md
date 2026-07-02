@@ -6,7 +6,7 @@ Minimalus is a slim, modernized Guild Wars 1 interface mod by Jujin/gkoogz. It b
 
 Minimalus was designed around one goal: make Guild Wars feel sharper, lighter, and easier to read in real play. The mod pares the interface down to its functional minimum, replaces ornate frames and gradients with precise 1px borders, softens menu opacity so the world comes forward, and tunes combat feedback so health, adrenaline, interrupts, flags, skills, and targets can be read at a glance.
 
-The current stable public PC package is **Minimalus UI v2.1**, included as a GitHub release asset and mirrored in `release/`. The working source folders include the preserved v2.1-era material plus newly recovered and edited assets for the 3.0 pipeline.
+The current stable public PC package is **Minimalus UI v2.1**, included as a GitHub release asset and mirrored in `release/`. The working source folders include the preserved v2.1-era material plus newly recovered and edited assets for the 3.0 pipeline, with PC and Android/Reforged mobile captures kept separate.
 
 This README adapts the spirit, screenshots, and feature language from the original [Guild Wars Wiki Minimalus page](https://wiki.guildwars.com/wiki/User:Jujin/Minimalus_UI_Mod).
 
@@ -81,8 +81,10 @@ These older images show the look as Minimalus evolved through the 2014-2015 rele
 
 ## Repository Layout
 
-- `assets/Altered/` - edited DDS textures intended to be packaged into Minimalus.
-- `assets/Unaltered/` - original dumped DDS textures used as references and remapping inputs.
+- `assets/Altered/` - edited PC DDS textures intended to be packaged into the standard Minimalus TPF.
+- `assets/Unaltered/` - original PC dumped DDS textures used as references and remapping inputs.
+- `assets/AlteredMobile/` - edited Android/Reforged mobile DDS textures kept out of the PC package source.
+- `assets/UnalteredMobile/` - original Android/Reforged mobile dumps and capture metadata.
 - `docs/images/` - screenshots and feature images from the original wiki showcase.
 - `release/Minimalus UI v2.1.tpf` - current stable PC release package.
 - `docs/WRAPPING.md` - notes for building a TPF package with uMod Reforged.
@@ -96,7 +98,7 @@ These older images show the look as Minimalus evolved through the 2014-2015 rele
 
 ## Building Or Modifying
 
-Edit textures in `assets/Altered/`. Keep filenames intact: uMod/TexMod-style packages infer the target texture hash from names such as `GW.EXE_0xHASH.dds` or equivalent dump names.
+Edit PC textures in `assets/Altered/`. Keep filenames intact: uMod/TexMod-style packages infer the target texture hash from names such as `GW.EXE_0xHASH.dds` or equivalent dump names. Mobile-specific captures live in `assets/AlteredMobile/` and `assets/UnalteredMobile/` so they can be remapped for Android/Reforged work without being bundled into the normal PC TPF by accident.
 
 To rebuild a package, use [uMod Reforged](https://github.com/gkoogz/uMod-Reforged) and set the package source to `assets/Altered/`. See `docs/WRAPPING.md` for the practical workflow.
 

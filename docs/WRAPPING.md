@@ -9,7 +9,7 @@ Repository: https://github.com/gkoogz/uMod-Reforged
 1. Build or download uMod Reforged.
 2. Open uMod Reforged.
 3. Go to the **Mod Maker** workflow.
-4. Set the package source folder to:
+4. Set the package source folder to the PC altered texture folder:
 
    ```text
    assets/Altered
@@ -39,9 +39,11 @@ AndroidMobile_256x64_<hash>_tex<id>.dds
 
 The exact hash-bearing filename is how the loader knows which original in-game texture should be replaced.
 
+Android/Reforged mobile captures use the `AndroidMobile_...` naming pattern and are kept in `assets/AlteredMobile/` and `assets/UnalteredMobile/`. Keep them out of the standard PC package source unless you are deliberately building a mobile/remapped variant.
+
 ## Editing Workflow
 
-1. Use `assets/Unaltered/` as your original reference dump.
+1. Use `assets/Unaltered/` as your original PC reference dump.
 2. Edit the corresponding texture.
 3. Save the edited DDS into `assets/Altered/`.
 4. Preserve the original dimensions and format unless you know the target loader/game path supports the change.
