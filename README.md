@@ -8,6 +8,8 @@ Minimalus was designed around one goal: make Guild Wars feel sharper, lighter, a
 
 The current public PC package is **Minimalus UI v3.2**, included as a GitHub release asset and mirrored in `release/`. The working source folders include the preserved v2.1-era material plus newly recovered, fork-merged, and mobile-specific assets, with PC and Android/Reforged mobile captures kept separate.
 
+![Minimalus UI v3.2 preview](docs/images/Minimalus_UI_v3.2_preview.jpg)
+
 This README adapts the spirit, screenshots, and feature language from the original [Guild Wars Wiki Minimalus page](https://wiki.guildwars.com/wiki/User:Jujin/Minimalus_UI_Mod).
 
 ## Showcase
