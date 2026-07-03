@@ -6,7 +6,7 @@ Minimalus is a slim, modernized Guild Wars 1 interface mod by Jujin/gkoogz. It b
 
 Minimalus was designed around one goal: make Guild Wars feel sharper, lighter, and easier to read in real play. The mod pares the interface down to its functional minimum, replaces ornate frames and gradients with precise 1px borders, softens menu opacity so the world comes forward, and tunes combat feedback so health, adrenaline, interrupts, flags, skills, and targets can be read at a glance.
 
-The current stable public PC package is **Minimalus UI v2.1**, included as a GitHub release asset and mirrored in `release/`. The working source folders include the preserved v2.1-era material plus newly recovered and edited assets for the 3.0 pipeline, with PC and Android/Reforged mobile captures kept separate.
+The current public PC package is **Minimalus UI v3.2**, included as a GitHub release asset and mirrored in `release/`. The working source folders include the preserved v2.1-era material plus newly recovered, fork-merged, and mobile-specific assets, with PC and Android/Reforged mobile captures kept separate.
 
 This README adapts the spirit, screenshots, and feature language from the original [Guild Wars Wiki Minimalus page](https://wiki.guildwars.com/wiki/User:Jujin/Minimalus_UI_Mod).
 
@@ -86,12 +86,13 @@ These older images show the look as Minimalus evolved through the 2014-2015 rele
 - `assets/AlteredMobile/` - edited Android/Reforged mobile DDS textures kept out of the PC package source.
 - `assets/UnalteredMobile/` - original Android/Reforged mobile dumps and capture metadata.
 - `docs/images/` - screenshots and feature images from the original wiki showcase.
-- `release/Minimalus UI v2.1.tpf` - current stable PC release package.
+- `release/Minimalus UI v3.2.tpf` - current PC release package.
+- `release/Minimalus UI v2.1.tpf` - preserved legacy release package.
 - `docs/WRAPPING.md` - notes for building a TPF package with uMod Reforged.
 
 ## Using Minimalus On PC
 
-1. Download `Minimalus UI v2.1.tpf` from the [GitHub release](https://github.com/gkoogz/MinimalusUIMod/releases/tag/v2.1).
+1. Download `Minimalus UI v3.2.tpf` from the [latest GitHub release](https://github.com/gkoogz/MinimalusUIMod/releases/latest).
 2. Open [uMod Reforged](https://github.com/gkoogz/uMod-Reforged) or a TexMod-compatible loader.
 3. Launch Guild Wars through the loader.
 4. Add the `.tpf` package and enable it.

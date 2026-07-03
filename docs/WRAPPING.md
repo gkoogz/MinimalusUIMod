@@ -20,7 +20,7 @@ Repository: https://github.com/gkoogz/uMod-Reforged
 7. Name the package something like:
 
    ```text
-   Minimalus UI v3.0.tpf
+   Minimalus UI v3.2.tpf
    ```
 
 8. Test the package by launching Guild Wars through uMod Reforged and enabling the generated TPF.
